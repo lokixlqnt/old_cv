@@ -16,10 +16,10 @@
   <header>
     <nav>
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Interests</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -95,7 +95,7 @@
 
   <section id="interests">
     <h2>Interests</h2>
-      <p>From Science to Art, from Entertainment to Today's concerns, from Black to White, I got interests in nearly everything that comes into my hands</p>
+    <p>From Science to Art, from Entertainment to Today's concerns, from Black to White, I got interests in nearly everything that comes into my hands</p>
     <div class="table">
 
       <p>Music production</p>
@@ -111,7 +111,25 @@
   </section>
 
   <section id="contact">
+    <div class="form">
+      <form action="action_page.php">
 
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="mail">E-mail Adress</label>
+        <input type="text" id="mail" name="email" placeholder="Your E-mail..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
   </section>
 
 </body>
